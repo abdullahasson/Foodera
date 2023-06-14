@@ -203,4 +203,64 @@
   .stats .container .content {
     justify-content: center;
   }
+}
+.about {
+  padding: 60px 0;
+}
+.about .container {
+  display: flex;
+  flex-direction: column;
+}
+.about .container h3 {
+  font-size: 32px;
+  line-height: 45px;
+  color: var(--titlecolor);
+  font-weight: 700;
+}
+.about .container .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .container .content .left img {
+  width: 95%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.about .container .two {
+  gap: 25px;
+  margin-top: 60px;
+}
+.about .container .two .left ul {
+  padding-left: 0;
+}
+.about .container .two .left ul li {
+  padding: 5px 0;
+}
+.about .container .two .left ul li i {
+  font-weight: bolder;
+  color: var(--fontcolor);
+  margin-right: 7px;
+}
+.about .container .two img {
+  width: 600px;
+}
+
+@media (max-width: 992px) {
+  .about .container .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .container .content .left {
+    margin-bottom: 20px;
+  }
+  .about .container .content .left img {
+    width: 100%;
+  }
+  .about .container .two img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

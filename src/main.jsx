@@ -5,11 +5,13 @@ import Home from './components/Home';
 import Stats from './components/Stats';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
+import About from './components/About';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
     <Home />
     <Stats />
+    <About />
   </React.StrictMode>,
 )
