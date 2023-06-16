@@ -10,7 +10,7 @@ export default function Testimonials() {
                     <h1>Testimonials</h1>
                 </div>
                 <div className="content">
-                    <Carousel slide={false}>
+                    <Carousel slide={true}>
                         <Carousel.Item>
                             <div className="box">
                                 <img src={img1} alt="" />
