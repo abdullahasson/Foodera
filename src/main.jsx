@@ -5,9 +5,10 @@ import Home from './components/Home';
 import Stats from './components/Stats';
 import About from './components/About';
 import Video from './components/Video';
+import Explore from './components/Explore';
+import Testimonials from './components/Testimonials';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
-import Explore from './components/Explore';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,5 +18,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <About />
     <Video />
     <Explore />
+    <Testimonials />
   </React.StrictMode>,
 )

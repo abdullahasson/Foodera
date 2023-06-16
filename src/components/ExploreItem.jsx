@@ -1,18 +1,16 @@
-import imga from '../assets/02.jpg'
-
-export default function Item() {
+export default function Item(Props) {
     return(
         <div className="box">
             <div className="head">
-                <img src={imga} alt="" />
+                <img src={Props.imgSrc} alt="" />
             </div>
             <div className="body">
-                <h3>Raspberry Stuffed French Toast</h3>
-                <p>Time: 30 - 45 Minutes | Serves: 1</p>
+                <h3>{Props.name}</h3>
+                <p>{Props.time}</p>
 
                 <div className="price">
-                    <span>$12.50</span>
-                    <del>$13.20</del>
+                    <span>{Props.price}</span>
+                    <del>{Props.comon}</del>
                 </div>
             </div>
             <div className="foot">
