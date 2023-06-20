@@ -7,6 +7,9 @@ import About from './components/About';
 import Video from './components/Video';
 import Explore from './components/Explore';
 import Testimonials from './components/Testimonials';
+import Frequently from './components/Frequently';
+import Baked from './components/Baked';
+import Form from './components/Form'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
 
@@ -19,5 +22,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Video />
     <Explore />
     <Testimonials />
+    <Frequently />
+    <Baked />
+    <Form />
   </React.StrictMode>,
 )
