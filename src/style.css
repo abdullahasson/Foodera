@@ -634,4 +634,74 @@
 }
 .form .container .content form input :focus {
   border: none;
+}
+
+@media (max-width: 767px) {
+  .form .container .content {
+    width: 100%;
+  }
+  .form .container .content h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 490px) {
+  .form .container .content h1 {
+    font-size: 30px;
+  }
+  .form .container .content form {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.footer {
+  padding: 60px 0;
+  background-color: var(--fontcolor);
+}
+.footer .container .content {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 25px;
+}
+.footer .container .content .line {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+.footer .container .content .top {
+  gap: 33px;
+}
+.footer .container .content .top a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer .container .content .top a:hover {
+  text-decoration: underline;
+}
+.footer .container .content .middle ul li i {
+  font-size: 22px;
+}
+.footer .container .content .bottom p {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer .container .content {
+    width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .footer .container .content .top {
+    gap: 20px;
+  }
+  .footer .container .content .middle ul li i {
+    font-size: 17px;
+  }
 }/*# sourceMappingURL=style.css.map */

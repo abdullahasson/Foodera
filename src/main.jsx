@@ -9,7 +9,8 @@ import Explore from './components/Explore';
 import Testimonials from './components/Testimonials';
 import Frequently from './components/Frequently';
 import Baked from './components/Baked';
-import Form from './components/Form'
+import Form from './components/Form';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
 
@@ -25,5 +26,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Frequently />
     <Baked />
     <Form />
+    <Footer />
   </React.StrictMode>,
 )
