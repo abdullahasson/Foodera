@@ -11,7 +11,7 @@ export default function Explore() {
                 </div>
                 <div className="content">
                     <Item 
-                        imgSrc = './src/assets/01.jpg'
+                        imgSrc = '../assets/01.jpg'
                         name = 'Rainbow Vegetable Sandwich'
                         time = 'Time: 15 - 20 Minutes | Serves: 1'
                         price = '$10.50'
@@ -19,7 +19,7 @@ export default function Explore() {
                     />
 
                     <Item 
-                        imgSrc = './src/assets/02.jpg'
+                        imgSrc = '../assets/02.jpg'
                         name = 'Vegetarian Burger'
                         time = 'Time: 30 - 45 Minutes | Serves: 1'
                         price = '$9.20'
@@ -27,7 +27,7 @@ export default function Explore() {
                     />
 
                     <Item 
-                        imgSrc = './src/assets/03.jpg'
+                        imgSrc = '../assets/03.jpg'
                         name = 'Raspberry Stuffed French Toast'
                         time = 'Time: 10 - 15 Minutes | Serves: 1'
                         price = '$12.50'

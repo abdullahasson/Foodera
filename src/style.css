@@ -515,8 +515,8 @@
 }
 .frequently .container .content {
   display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 542px));
+  gap: 35px;
+  grid-template-columns: repeat(auto-fill, minmax(375px, auto));
 }
 .frequently .container .content .part {
   width: 100%;
@@ -543,13 +543,14 @@
   letter-spacing: 0.5px;
 }
 
-.frequently .container .content {
-  justify-content: center;
+@media (max-width: 560px) {
+  .frequently .container .content {
+    justify-content: center;
+  }
+  .frequently .container .content .part {
+    text-align: center;
+  }
 }
-.frequently .container .content .part {
-  text-align: center;
-}
-
 .baked {
   padding: 60px 0;
   background-image: url("./assets/2 (1).jpg");
