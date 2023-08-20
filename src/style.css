@@ -219,6 +219,12 @@
     padding: 0 15px;
   }
 }
+@media (max-width: 360px) {
+  .home .container .left h1 {
+    font-size: 36px;
+    font-weight: bolder;
+  }
+}
 .stats {
   background-color: var(--fontcolor);
 }
@@ -428,6 +434,16 @@
     margin: 0 auto;
   }
 }
+@media (max-width: 767px) {
+  .explore .container .heading p {
+    padding: 0 7%;
+  }
+}
+@media (max-width: 360px) {
+  .explore .container .heading p {
+    padding: 0 2%;
+  }
+}
 .testimonials {
   padding: 60px 0 90px;
   background-color: var(--fontcolor);
@@ -473,6 +489,7 @@
   color: var(--secondfontcolor);
   padding: 0 12%;
   font-size: 19px;
+  overflow: hidden;
 }
 .testimonials .container .content .carousel-inner .carousel-item .box span {
   font-weight: 700;
@@ -549,6 +566,11 @@
   }
   .frequently .container .content .part {
     text-align: center;
+  }
+}
+@media (max-width: 360px) {
+  .frequently .container .content .part {
+    padding: 18px;
   }
 }
 .baked {
