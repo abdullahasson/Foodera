@@ -3,7 +3,7 @@ import img2 from '../assets/2.png'
 
 export default function About() {
     return (
-        <div className="about">
+        <div className="about" id="action2">
             <div className="container">
                 <div className="content one">
                     <div className="left">

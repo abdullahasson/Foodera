@@ -11,9 +11,9 @@ function Header() {
             <Nav className="me-auto my-2 my-lg-0" navbarScroll>
               <Nav.Link href="#action1">Home</Nav.Link>
               <Nav.Link href="#action2">About Us</Nav.Link>
-              <Nav.Link href="#action2">Explore</Nav.Link>
-              <Nav.Link href="#action1">Reviws</Nav.Link>
-              <Nav.Link href="#action2">FQA</Nav.Link>
+              <Nav.Link href="#action3">Explore</Nav.Link>
+              <Nav.Link href="#action4">Reviws</Nav.Link>
+              <Nav.Link href="#action5">FQA</Nav.Link>
               <button className='btn'>1213 343 333</button>
             </Nav>
           </Navbar.Collapse>

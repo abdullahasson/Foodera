@@ -5,7 +5,7 @@ import imgthree from "../assets/03.jpg"
 
 export default function Explore() {
     return (
-        <div className="explore">
+        <div className="explore" id="action3">
             <div className="container">
                 <div className="heading">
                     <h1>Explore Our Foods</h1>

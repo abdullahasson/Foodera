@@ -4,7 +4,7 @@ import img2 from '../assets/2.jpg'
 
 export default function Testimonials() {
     return(
-        <div className="testimonials">
+        <div className="testimonials" id="action4">
             <div className="container">
                 <div className="heading">
                     <h1>Testimonials</h1>

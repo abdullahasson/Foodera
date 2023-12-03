@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div className="home">
+        <div className="home" id="action1">
             <div className="container">
                 <div className="left">
                     <h1>Good food choices are good investments.</h1>

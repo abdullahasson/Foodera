@@ -1,6 +1,6 @@
 export default function Frequently() {
     return (
-        <div className="frequently">
+        <div className="frequently" id="action5">
             <div className="container">
                 <div className="heading">
                     <h1>Frequently Asked Questions</h1>
