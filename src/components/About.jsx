@@ -1,3 +1,4 @@
+import { BlurhashCanvas } from "react-blurhash";
 import img1 from '../assets/1.png'
 import img2 from '../assets/2.png'
 
@@ -7,6 +8,16 @@ export default function About() {
             <div className="container">
                 <div className="content one">
                     <div className="left">
+                        <BlurhashCanvas
+                            hash="LEKUJ=.mlCvfgbS6xAt,5;RPMIx^"
+                            style={{
+                                position: "absolute",
+                                width: "95%",
+                                height: "100%",
+                                borderRadius: "20px",
+                                zIndex: "1"
+                            }}
+                        />
                         <img src={img1} alt="" />
                     </div>
                     <div className="right">
@@ -27,6 +38,15 @@ export default function About() {
                         <button className='btn'>Learn More</button>
                     </div>
                     <div className="right">
+                        <BlurhashCanvas
+                            hash="LOKKQH~VT0bv%fOYobbaTeENslw^"
+                            style={{
+                                position: "absolute",
+                                width: "100%",
+                                height: "100%",
+                                zIndex: "1"
+                            }}
+                        />
                         <img src={img2} alt="" />
                     </div>
                 </div>
