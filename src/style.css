@@ -485,6 +485,20 @@ html {
 .testimonials .container .content {
   margin-top: 20px;
 }
+.testimonials .container .content .carousel-control-prev,
+.testimonials .container .content .carousel-control-next {
+  background: #a58f8f;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  margin: auto;
+}
+.testimonials .container .content .carousel-control-prev {
+  margin-left: 20px;
+}
+.testimonials .container .content .carousel-control-next {
+  margin-right: 20px;
+}
 .testimonials .container .content .carousel-inner .carousel-item .box {
   padding: 30px;
   height: 300px;

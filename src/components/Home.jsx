@@ -16,7 +16,7 @@ export default function Home() {
             />
             <div className="home" id="action1">
                 <div className="container">
-                    <div className="left">
+                    <div className="left" data-aos="zoom-out-right">
                         <h1>Good food choices are good investments.</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.</p>
 

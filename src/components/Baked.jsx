@@ -16,11 +16,11 @@ export default function Baked() {
             />
             <div className="overlay"></div>
             <div className="container">
-                <div className="left">
+                <div className="left" data-aos="fade-right">
                     <h2>Baked fresh daily by bakers with passion.</h2>
                 </div>
                 <div className="right">
-                    <button className="btn">Learn More</button>
+                    <button className="btn" data-aos="fade-left">Learn More</button>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ export default function Item(Props) {
         <div className="box">
             <div className="head">
                 <BlurhashCanvas
-                    hash={Props.hush}
+                    hash={Props.hash}
                     style={{
                         position: "absolute",
                         width: "100%",

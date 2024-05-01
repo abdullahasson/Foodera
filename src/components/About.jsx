@@ -1,15 +1,16 @@
 import { BlurhashCanvas } from "react-blurhash";
-import img1 from '../assets/1.png'
-import img2 from '../assets/2.png'
+import { AboutImages } from "../assets";
+import 'aos/dist/aos.css';
 
 export default function About() {
+
     return (
         <div className="about" id="action2">
             <div className="container">
                 <div className="content one">
-                    <div className="left">
+                    <div data-aos="zoom-in-right" className="left">
                         <BlurhashCanvas
-                            hash="LEKUJ=.mlCvfgbS6xAt,5;RPMIx^"
+                            hash={AboutImages.img1Hash}
                             style={{
                                 position: "absolute",
                                 width: "95%",
@@ -18,7 +19,7 @@ export default function About() {
                                 zIndex: "1"
                             }}
                         />
-                        <img src={img1} alt="" />
+                        <img src={AboutImages.img1} alt="" />
                     </div>
                     <div className="right">
                         <h3>We pride ourselves on making real food from the best ingredients.</h3>
@@ -38,16 +39,7 @@ export default function About() {
                         <button className='btn'>Learn More</button>
                     </div>
                     <div className="right">
-                        <BlurhashCanvas
-                            hash="LOKKQH~VT0bv%fOYobbaTeENslw^"
-                            style={{
-                                position: "absolute",
-                                width: "100%",
-                                height: "100%",
-                                zIndex: "1"
-                            }}
-                        />
-                        <img src={img2} alt="" />
+                        <img src={AboutImages.img2} alt="" />
                     </div>
                 </div>
             </div>

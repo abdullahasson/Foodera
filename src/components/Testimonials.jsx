@@ -1,22 +1,21 @@
 import { BlurhashCanvas } from "react-blurhash"
 import { Carousel } from 'react-bootstrap'
-import img1 from '../assets/1 (1).jpg'
-import img2 from '../assets/2.jpg'
+import { TestimonialsImages } from "../assets"
 
 export default function Testimonials() {
     return (
         <div className="testimonials" id="action4">
             <div className="container">
-                <div className="heading">
+                <div className="heading" data-aos="fade-down">
                     <h1>Testimonials</h1>
                 </div>
-                <div className="content">
+                <div className="content" data-aos="zoom-in-up">
                     <Carousel slide={true}>
                         <Carousel.Item>
                             <div className="box">
                                 <div className="profile-image">
                                     <BlurhashCanvas
-                                        hash="LPIqls-:*09u^+RPt8IpXTkWIUxF"
+                                        hash={TestimonialsImages.PersonOneHash}
                                         style={{
                                             position: "absolute",
                                             width: "100%",
@@ -25,7 +24,7 @@ export default function Testimonials() {
                                             zIndex: "1"
                                         }}
                                     />
-                                    <img src={img1} alt="" />
+                                    <img src={TestimonialsImages.PersonOne} alt="" />
                                 </div>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
                                 <span>Simab Dave - Web Designer</span>
@@ -35,7 +34,7 @@ export default function Testimonials() {
                             <div className="box">
                                 <div className="profile-image">
                                     <BlurhashCanvas
-                                        hash="LgK1du-;_NR+?bM{t6ofNxkCa0t6"
+                                        hash={TestimonialsImages.PersonTwoHash}
                                         style={{
                                             position: "absolute",
                                             width: "100%",
@@ -44,7 +43,7 @@ export default function Testimonials() {
                                             zIndex: "1"
                                         }}
                                     />
-                                    <img src={img2} alt="" />
+                                    <img src={TestimonialsImages.PersonTwo} alt="" />
                                 </div>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live far from the countries Vokalia.</p>
                                 <span>Johnthan Doe - UX Designer</span>
@@ -54,7 +53,7 @@ export default function Testimonials() {
                             <div className="box">
                                 <div className="profile-image">
                                     <BlurhashCanvas
-                                        hash="LPIqls-:*09u^+RPt8IpXTkWIUxF"
+                                        hash={TestimonialsImages.PersonOneHash}
                                         style={{
                                             position: "absolute",
                                             width: "100%",
@@ -63,7 +62,7 @@ export default function Testimonials() {
                                             zIndex: "1"
                                         }}
                                     />
-                                    <img src={img1} alt="" />
+                                    <img src={TestimonialsImages.PersonOne} alt="" />
                                 </div>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <span>Maccy Doe - Front End</span>
