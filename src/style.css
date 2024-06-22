@@ -1,7 +1,7 @@
 :root {
-  --titlecolor: #43121d;
+  --titlecolor: #43121d ;
   --fontcolor: #a82d49;
-  --secondfontcolor:#555555;
+  --secondfontcolor: #555555;
 }
 
 * {
@@ -766,10 +766,51 @@ html {
   }
 }
 @media (max-width: 430px) {
-  .footer .container .content .top {
-    gap: 20px;
+  .buttos button {
+    margin: 0 10px;
   }
+
+  button {
+    border: none !important;
+    outline: none !important;
+  }
+
+  .content .right img {
+    width: 310px !important;
+  }
+  
+  .explore .content .box {
+    border: 1px solid #cac6c6;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+
+  .container .content .carousel-control-next , 
+  .container .content .carousel-control-prev {
+    background: #a58f8faf;
+    height: 40px !important;
+    width: 40px !important;
+    top: -80% !important;
+    position: absolute; 
+  }
+
+  .form .container .content form input {
+    margin-bottom: 20px;
+  }
+
+
+
+  .footer .container .content .top > a {
+    margin: 0 8px;
+  }
+
+  .footer .container .content .middle {
+    margin: 12px 0;
+  }
+
   .footer .container .content .middle ul li i {
     font-size: 17px;
+    margin: 0 8px;
   }
 }/*# sourceMappingURL=style.css.map */
